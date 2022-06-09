@@ -10,9 +10,9 @@ export class QueryService {
   selectclients: Clientmodel;
   client: Clientmodel[];
 
-  readonly URL_API_CREATE_TRANSACTION = 'http://crudmongo-roks-ana.openshift-dal-demo-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
-  readonly URL_API_GET_TRANSACTIONS = 'http://crudmongo-roks-ana.openshift-dal-demo-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
-  readonly URL_API_DELETE = 'http://crudmongo-roks-ana.openshift-dal-demo-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
+  readonly URL_API_CREATE_TRANSACTION = 'http://crud-mongo-roks-ana.openshift-demo-dal-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
+  readonly URL_API_GET_TRANSACTIONS = 'http://crud-mongo-roks-ana.openshift-demo-dal-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
+  readonly URL_API_DELETE = 'http://crud-mongo-roks-ana.openshift-demo-dal-bb2658cfd9b67ad75139ae3de1b2980c-0000.us-south.containers.appdomain.cloud/api/customers';
 
   constructor(public httpClient: HttpClient)
   {
